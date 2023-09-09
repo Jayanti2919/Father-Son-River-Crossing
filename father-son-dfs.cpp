@@ -198,6 +198,7 @@ int main()
         {
             flag = 1;
             cout << "Goal reached" << endl;
+            cout << "Path cost: " << current->pathcost << endl;
             cout << "Path:" << endl;
             stack<int> goalActions;
             while (current != NULL)

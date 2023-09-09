@@ -220,6 +220,7 @@ int main()
         }
         if (flag == 1)
         {
+            cout << "Cost: " << current->pathcost + 1 << endl;
             cout << "Path:" << endl;
             stack<int> goalActions;
             goalActions.push(goal_action);
